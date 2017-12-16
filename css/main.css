@@ -3,9 +3,6 @@
 *{
     font-family: 'Raleway', sans-serif;
 }
-.capital-letter{
-    text-transform: uppercase;
-}
 /*Clases para header*/
 .navbar-default{
     background-color:#ffff;
@@ -24,7 +21,7 @@
 .full{
     background: url(../assets/images/taxi.jpg) no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    height: 60vh;
     max-width: 100%;
     background-position:bottom;
 }
@@ -46,7 +43,10 @@
     display: none;
 }
 /*Desktop*/
-@media(min-width:992px){
+@media(min-width:768px){
+.full{
+    height:85vh ;
+}
 .desktop-hero{
     display: block;
 }
@@ -80,4 +80,101 @@
 .desktop-hero span{
     margin: 0 50px
 }
+}
+/*Clases para zona phone*/
+.section-3{
+    background: #f7b617;
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/*Movile*/
+.phone-movile div{
+    margin: 30px 10px;
+    text-align: center;
+    border: 1px solid #ffff;
+    padding:15px;
+}
+.phone-movile h5{
+    margin-left: 15px;
+}
+.phone-desktop{
+    display:none;
+}
+/*Desktop*/
+@media(min-width:768px){
+.phone-desktop{
+    display:block;
+    margin: 30px 0;
+    border: 1px solid #ffff;
+    border-left-width: 0px;
+    padding: 15px;
+}
+.section-3{
+    padding-left: 0px;
+}
+.phone-movile{
+    display: none;
+}
+}
+/*Clases para zona drive*/
+.btn-warning{
+    background: #f7b617;  
+}
+.section-4{
+    background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)), url(../assets/images/conduce.jpg);
+    background-size: cover;
+    height: 50vh;
+    max-width: 100%;
+    color: #ffff;
+    padding: 60px 30px;
+}
+@media(min-width:768px){
+    .section-4{
+        background: url(../assets/images/conduce.jpg)no-repeat center center;
+        background-size: cover;
+        padding-right:0;
+        padding-top: 0;
+    }
+    .section-4 .row{
+        margin-right:0;
+    }
+    .section-4 .col-md-5{
+        background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5));
+        padding: 5rem 3rem;
+    }
+}
+/*Clases para section search*/
+.section-5, .form-control , .section-5 input::-webkit-input-placeholder{
+    background: #f7b617; 
+    color:#ffff ;
+}
+.form-control{
+    border: 1px solid #ffff;
+}
+.section-5 .row {
+    margin-bottom: 15px;
+}
+iframe {
+    width:100%; 
+    height:100%;
+    border: 1px solid #ffff; 
+    padding:10px;
+}
+@media(min-width:768px){
+    .section-5 .consult {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center; 
+        height: 30vh; 
+        margin-top: 25px;
+    }
+    .section-5 .row {
+        margin-bottom: 25px;
+    }
+    iframe {
+        margin-top: 25px;
+        height:30vh;
+    }
 }
