@@ -246,4 +246,14 @@ iframe {
 .form-group input,.form-group button {
     margin-bottom: 15px;
 }
-    
+/*Clases para modal-3*/
+.third {
+    background:#a8a3a3;
+    border: 0;
+} 
+.third h4{
+    margin-top:20px;
+}
+.third div:nth-child(2){
+    padding:0px 30px;
+}
