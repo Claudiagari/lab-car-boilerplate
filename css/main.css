@@ -146,11 +146,11 @@
     }
 }
 /*Clases para section search*/
-.section-5, .form-control , .section-5 input::-webkit-input-placeholder{
+.section-5, .section-5 .form-control , .section-5 input::-webkit-input-placeholder{
     background: #f7b617; 
     color:#ffff ;
 }
-.form-control{
+.section-5 .form-control{
     border: 1px solid #ffff;
 }
 .section-5 .row {
@@ -192,6 +192,9 @@ iframe {
     border-bottom: 1px solid #fff;
     margin: 10px;
 }
+.centerlist .col-xs-6{
+    padding: 0;
+}
 .centerlistdk{
     display:flex;
     border-top: 1px solid #fff;
@@ -209,5 +212,38 @@ iframe {
 .listunder {
    flex-direction:row;
    align-self: flex-end;
+}
+/*Clases para modal-1*/
+.first{
+    background: #18bc9c;
+}
+.user img {
+   width:250px;
+   height:250px;
+}
+.body-user .row div{
+    padding:15px 0 0 0;
+    background: #f7f7f7;
+}
+.body-user .row:last-child a {
+    color: rgb(133, 25, 25);
+}
+/*Clases para modal-2*/
+.register{
+    background:#a8a3a3; 
+}
+.second{
+    border-bottom-width: 0;
+}
+.account {
+    background-color: #000;
+    color: #ffff;
+}
+.account:hover, .account:focus, .account:active{
+    background-color:#000;
+    color: rgb(248, 247, 247);
+}
+.form-group input,.form-group button {
+    margin-bottom: 15px;
 }
     

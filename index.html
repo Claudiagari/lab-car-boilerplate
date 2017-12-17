@@ -29,10 +29,54 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class=""><a href="#">Viaja <span class="sr-only">(current)</span></a></li>
                             <li><a href="#">Conduce</a></li>
-                            <li><button type="button" class="btn btn-default navbar-btn">Iniciar sesión</button></li>
+                            <li><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#myModal">Iniciar sesión</button></li>
                         </ul>
                     </div>      
                  </div>
+                 <!--Primer Modal loging-->
+                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content first">
+                            <div class="modal-header center-block">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <figure class="modal-title user" id="myModalLabel"><img src="assets/images/user.png" class="img-responsive center-block" alt="Responsive image"></figure>
+                            </div>
+                            <div class="modal-body center-block col-md-12 body-user">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <div class="input-group  col-md-offset-2 col-md-8">
+                                            <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                                            <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <div class="input-group  col-md-offset-2 col-md-8">
+                                            <span class="input-group-addon" type="password" id="exampleInputPassword3"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+                                            <input type="password" class="form-control" placeholder="Password" aria-describedby="sizing-addon2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <div class="input-group  col-md-offset-4 col-md-3">
+                                            <button type="button" class="btn btn-warning text-uppercase" data-dismiss="modal">loging</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <div class="input-group  col-md-offset-2 col-md-9">
+                                            <p>Forgot password? <a href=""><strong> Click Here</strong></a></p>
+                                        </div>
+                                    </div>
+                                </div>        
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </header>
         <section>
@@ -48,13 +92,66 @@
                         <div  class="desktop-hero">
                             <h3>Disfruta del viaje <br> Eres dueño de tu tiempo</h3>
                             <p>Viaja con <img src="assets/images/logoBlanco.png" alt="logo"></p>
-                            <button type="button" class="btn btn-default btn-sm "><strong class="text-uppercase">Regístrate</strong></button>
+                            <button type="button" class="btn btn-default btn-sm "><strong class="text-uppercase" data-toggle="modal" data-target="#myModal-2">Regístrate</strong></button>
                             <div class="line"><hr><span> O bien</span><hr></div>
-                            <button type="button" class="btn btn-default btn-sm "><strong>Conviértete en un conductor</strong></button>
+                            <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal-3"><strong>Conviértete en un conductor</strong></button>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--Modal de registro -->
+            <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content register">
+                        <div class="modal-header second">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <button type="button" class="btn btn-default btn-lg btn-block account">Ya tienes una cuenta?</button>
+                            <h4 class="text-uppercase text-center">o crea una cuenta nueva </h4>
+                            <form>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="name" class="form-control" placeholder="Nombre">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="name" class="form-control" placeholder="Apellido">
+                                        </div>            
+                                    </div>
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Correo Electrónico: ejemplo@correo.pe">
+                                    <input type="text" class="form-control"  placeholder="Télefono">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña">
+                                    <input type="text" class="form-control"  placeholder="Ciudad">
+                                    <input type="text" class="form-control"  placeholder="(Opcional) Código de invitación">
+                                    <div class="dropdown">
+                                        <button class="btn btn-default btn-lg btn-block account" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> 
+                                            <strong> ¿Cómo te enteraste de nosotros?</strong>
+                                             <span class="caret"></span>
+                                        </button>
+                                    </div>
+                                    <button type="button" class="btn btn-primary btn-lg btn-block btn-info text-uppercase" data-dismiss="modal"><strong>enviar</strong></button>
+                                </div>   
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
         </section>
         <!--Zona iphone-->
         <section>
