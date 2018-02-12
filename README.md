@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-# Reto Lab<ar
-Usando el framework Bootstrap replicar una pagina tanto en version web como para movile.
-
-![image](https://fotos.subefotos.com/f23c919f01882888e5cbff2de9b16438o.jpg)
-
-## Herramientas
-* Materialize.
-* Html.
-* Css.
-* Visual Studio Code.
-=======
 <p align="center">
 	<img src="assets/images/logoForma.png">
 	</img>
@@ -18,6 +6,8 @@ Usando el framework Bootstrap replicar una pagina tanto en version web como para
 ##  Descripción
 
 Esta aplicación esta diseñada para facilitar a las personas el uso transporte personal. Su caracteristica principal es la ubicación de conductores y el trazo de rutas.
+
+![image](https://fotos.subefotos.com/f23c919f01882888e5cbff2de9b16438o.jpg)
 
 ## Problematica
 Actualmente tomar un taxi puede ser difícil ya que en algunos casos los taxis de la calle no quieren ir al destino que indica el cliente. Asimismo, existen aspectos como la seguridad y el precio justo.
@@ -45,4 +35,3 @@ Desarollar una aplicación para el uso de transporte privado facilitando la ubic
 
 - Claudia Garibotto - [@Claudiagari](https://github.com/Claudiagari)
 
->>>>>>> 82a26ef3f9a2b5bee2131e006814ffd58d719c86
