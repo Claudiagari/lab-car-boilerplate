@@ -7,6 +7,8 @@
 
 Esta aplicación esta diseñada para facilitar a las personas el uso transporte personal. Su caracteristica principal es la ubicación de conductores y el trazo de rutas.
 
+![image](https://fotos.subefotos.com/f23c919f01882888e5cbff2de9b16438o.jpg)
+
 ## Problematica
 Actualmente tomar un taxi puede ser difícil ya que en algunos casos los taxis de la calle no quieren ir al destino que indica el cliente. Asimismo, existen aspectos como la seguridad y el precio justo.
 
