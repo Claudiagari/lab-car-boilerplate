@@ -214,7 +214,10 @@
     margin: 30px 0;
     border: 1px solid #ffff;
     border-left-width: 0px;
-    padding: 15px;
+    padding: 30px 15px;
+  }
+  .sectionPhone{
+    padding: 30px 15px;
   }
   .section-3{
     padding-left: 0px;
@@ -227,6 +230,7 @@
     background-size: cover;
     padding-right:0;
     padding-top: 0;
+    height: 80vh;
   }
   .section-4 .row{
     margin-right:0;
@@ -239,14 +243,23 @@
     display: flex; 
     flex-direction: column;
     justify-content: center; 
-    height: 30vh; 
+    height: 70vh; 
     margin-top: 25px;
   }
-  .section-5 .row {
-    margin-bottom: 25px;
+  .section-5 .input-sm {
+    font-size: 16px;
+  }
+  .section-5 .btn-group-sm>.btn, .btn-sm{
+    font-size: 16px;
   }
   #map{
     margin-top: 25px;
-    height:50vh;
+    height:70vh;
   }
+  .footer{
+    padding: 60px 25px;
+  }
+}
+.vh100{
+  height: 100vh;
 }
